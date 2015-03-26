@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61E1378198A285000D5251D /* Calculate GPA button.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E1377198A285000D5251D /* Calculate GPA button.png */; };
+		B61E137A198A29A900D5251D /* Save Semester button.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E1379198A29A900D5251D /* Save Semester button.png */; };
+		B61E137C198A29BD00D5251D /* Load Semester Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E137B198A29BD00D5251D /* Load Semester Button.png */; };
+		B61E137E198C617900D5251D /* Brutus Mascot.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E137D198C617900D5251D /* Brutus Mascot.png */; };
+		B61E1380198C63EC00D5251D /* grayTopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E137F198C63EC00D5251D /* grayTopBar.png */; };
+		B61E1382198C643600D5251D /* redTopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = B61E1381198C643600D5251D /* redTopBar.png */; };
+		B64783F8197DFCAD0051B8E5 /* Block O.png in Resources */ = {isa = PBXBuildFile; fileRef = B64783F7197DFCAD0051B8E5 /* Block O.png */; };
+		B6518254197C12BB0059E250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6518253197C12BB0059E250 /* Foundation.framework */; };
+		B6518256197C12BB0059E250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6518255197C12BB0059E250 /* CoreGraphics.framework */; };
+		B6518258197C12BB0059E250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6518257197C12BB0059E250 /* UIKit.framework */; };
+		B651825E197C12BB0059E250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B651825C197C12BB0059E250 /* InfoPlist.strings */; };
+		B6518260197C12BB0059E250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B651825F197C12BB0059E250 /* main.m */; };
+		B6518264197C12BB0059E250 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6518263197C12BB0059E250 /* BNRAppDelegate.m */; };
+		B6518266197C12BB0059E250 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6518265197C12BB0059E250 /* Images.xcassets */; };
+		B651826D197C12BB0059E250 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B651826C197C12BB0059E250 /* XCTest.framework */; };
+		B651826E197C12BB0059E250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6518253197C12BB0059E250 /* Foundation.framework */; };
+		B651826F197C12BB0059E250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6518257197C12BB0059E250 /* UIKit.framework */; };
+		B6518277197C12BB0059E250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6518275197C12BB0059E250 /* InfoPlist.strings */; };
+		B6518279197C12BB0059E250 /* OSU_GPA_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6518278197C12BB0059E250 /* OSU_GPA_CalculatorTests.m */; };
+		B6518285197C12D30059E250 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6518283197C12D30059E250 /* BNRViewController.m */; };
+		B6518286197C12D30059E250 /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6518284197C12D30059E250 /* BNRViewController.xib */; };
+		B68129361997C47B00E0DBE1 /* Gray20.png in Resources */ = {isa = PBXBuildFile; fileRef = B68129351997C47B00E0DBE1 /* Gray20.png */; };
+		B68129381997C98400E0DBE1 /* GoBucksLines.png in Resources */ = {isa = PBXBuildFile; fileRef = B68129371997C98400E0DBE1 /* GoBucksLines.png */; };
+		B68C278419993EB800876E74 /* GoBucks.png in Resources */ = {isa = PBXBuildFile; fileRef = B68C278319993EB800876E74 /* GoBucks.png */; };
+		B68C27861999414E00876E74 /* GoBucks1.png in Resources */ = {isa = PBXBuildFile; fileRef = B68C27851999414E00876E74 /* GoBucks1.png */; };
+		B69BF29A198A01280062A095 /* Brutus the Buckeye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B69BF299198A01280062A095 /* Brutus the Buckeye.jpg */; };
+		B6EA6BFB1997C11D00B4FA01 /* GoBucksRedGray.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EA6BFA1997C11D00B4FA01 /* GoBucksRedGray.png */; };
+		B6F76DF31996F6B300373AAF /* SettingsPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F76DF11996F6B300373AAF /* SettingsPageViewController.m */; };
+		B6F76DF41996F6B300373AAF /* SettingsPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6F76DF21996F6B300373AAF /* SettingsPageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6518270197C12BB0059E250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6518248197C12BB0059E250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B651824F197C12BB0059E250;
+			remoteInfo = "OSU GPA Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B61E1377198A285000D5251D /* Calculate GPA button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Calculate GPA button.png"; path = "Supporting Files/Calculate GPA button.png"; sourceTree = SOURCE_ROOT; };
+		B61E1379198A29A900D5251D /* Save Semester button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Save Semester button.png"; path = "Supporting Files/Save Semester button.png"; sourceTree = SOURCE_ROOT; };
+		B61E137B198A29BD00D5251D /* Load Semester Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Load Semester Button.png"; path = "Supporting Files/Load Semester Button.png"; sourceTree = SOURCE_ROOT; };
+		B61E137D198C617900D5251D /* Brutus Mascot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Brutus Mascot.png"; path = "Supporting Files/Brutus Mascot.png"; sourceTree = SOURCE_ROOT; };
+		B61E137F198C63EC00D5251D /* grayTopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayTopBar.png; path = "Supporting Files/grayTopBar.png"; sourceTree = SOURCE_ROOT; };
+		B61E1381198C643600D5251D /* redTopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redTopBar.png; path = "Supporting Files/redTopBar.png"; sourceTree = SOURCE_ROOT; };
+		B64783F7197DFCAD0051B8E5 /* Block O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Block O.png"; path = "../Supporting Files/Block O.png"; sourceTree = "<group>"; };
+		B6518250197C12BB0059E250 /* OSU GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSU GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6518253197C12BB0059E250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6518255197C12BB0059E250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6518257197C12BB0059E250 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B651825B197C12BB0059E250 /* OSU GPA Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSU GPA Calculator-Info.plist"; sourceTree = "<group>"; };
+		B651825D197C12BB0059E250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B651825F197C12BB0059E250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6518261197C12BB0059E250 /* OSU GPA Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSU GPA Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		B6518262197C12BB0059E250 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		B6518263197C12BB0059E250 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		B6518265197C12BB0059E250 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B651826B197C12BB0059E250 /* OSU GPA CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OSU GPA CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B651826C197C12BB0059E250 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6518274197C12BB0059E250 /* OSU GPA CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSU GPA CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		B6518276197C12BB0059E250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6518278197C12BB0059E250 /* OSU_GPA_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSU_GPA_CalculatorTests.m; sourceTree = "<group>"; };
+		B6518282197C12D30059E250 /* BNRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		B6518283197C12D30059E250 /* BNRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		B6518284197C12D30059E250 /* BNRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRViewController.xib; sourceTree = "<group>"; };
+		B68129351997C47B00E0DBE1 /* Gray20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gray20.png; path = "Supporting Files/Gray20.png"; sourceTree = SOURCE_ROOT; };
+		B68129371997C98400E0DBE1 /* GoBucksLines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GoBucksLines.png; path = "Supporting Files/GoBucksLines.png"; sourceTree = SOURCE_ROOT; };
+		B68C278319993EB800876E74 /* GoBucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GoBucks.png; path = "Supporting Files/GoBucks.png"; sourceTree = SOURCE_ROOT; };
+		B68C27851999414E00876E74 /* GoBucks1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GoBucks1.png; path = "Supporting Files/GoBucks1.png"; sourceTree = SOURCE_ROOT; };
+		B69BF299198A01280062A095 /* Brutus the Buckeye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Brutus the Buckeye.jpg"; path = "Supporting Files/Brutus the Buckeye.jpg"; sourceTree = SOURCE_ROOT; };
+		B6EA6BFA1997C11D00B4FA01 /* GoBucksRedGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GoBucksRedGray.png; path = "Supporting Files/GoBucksRedGray.png"; sourceTree = SOURCE_ROOT; };
+		B6F76DF01996F6B300373AAF /* SettingsPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsPageViewController.h; sourceTree = "<group>"; };
+		B6F76DF11996F6B300373AAF /* SettingsPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsPageViewController.m; sourceTree = "<group>"; };
+		B6F76DF21996F6B300373AAF /* SettingsPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsPageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B651824D197C12BB0059E250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6518256197C12BB0059E250 /* CoreGraphics.framework in Frameworks */,
+				B6518258197C12BB0059E250 /* UIKit.framework in Frameworks */,
+				B6518254197C12BB0059E250 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6518268197C12BB0059E250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B651826D197C12BB0059E250 /* XCTest.framework in Frameworks */,
+				B651826F197C12BB0059E250 /* UIKit.framework in Frameworks */,
+				B651826E197C12BB0059E250 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6518247197C12BB0059E250 = {
+			isa = PBXGroup;
+			children = (
+				B6518282197C12D30059E250 /* BNRViewController.h */,
+				B6518283197C12D30059E250 /* BNRViewController.m */,
+				B6518284197C12D30059E250 /* BNRViewController.xib */,
+				B6F76DF01996F6B300373AAF /* SettingsPageViewController.h */,
+				B6F76DF11996F6B300373AAF /* SettingsPageViewController.m */,
+				B6F76DF21996F6B300373AAF /* SettingsPageViewController.xib */,
+				B6518259197C12BB0059E250 /* OSU GPA Calculator */,
+				B6518272197C12BB0059E250 /* OSU GPA CalculatorTests */,
+				B6518252197C12BB0059E250 /* Frameworks */,
+				B6518251197C12BB0059E250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6518251197C12BB0059E250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6518250197C12BB0059E250 /* OSU GPA Calculator.app */,
+				B651826B197C12BB0059E250 /* OSU GPA CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6518252197C12BB0059E250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6518253197C12BB0059E250 /* Foundation.framework */,
+				B6518255197C12BB0059E250 /* CoreGraphics.framework */,
+				B6518257197C12BB0059E250 /* UIKit.framework */,
+				B651826C197C12BB0059E250 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6518259197C12BB0059E250 /* OSU GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B6518262197C12BB0059E250 /* BNRAppDelegate.h */,
+				B6518263197C12BB0059E250 /* BNRAppDelegate.m */,
+				B6518265197C12BB0059E250 /* Images.xcassets */,
+				B651825A197C12BB0059E250 /* Supporting Files */,
+			);
+			path = "OSU GPA Calculator";
+			sourceTree = "<group>";
+		};
+		B651825A197C12BB0059E250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68C27851999414E00876E74 /* GoBucks1.png */,
+				B68C278319993EB800876E74 /* GoBucks.png */,
+				B68129371997C98400E0DBE1 /* GoBucksLines.png */,
+				B68129351997C47B00E0DBE1 /* Gray20.png */,
+				B6EA6BFA1997C11D00B4FA01 /* GoBucksRedGray.png */,
+				B651825B197C12BB0059E250 /* OSU GPA Calculator-Info.plist */,
+				B651825C197C12BB0059E250 /* InfoPlist.strings */,
+				B651825F197C12BB0059E250 /* main.m */,
+				B6518261197C12BB0059E250 /* OSU GPA Calculator-Prefix.pch */,
+				B69BF299198A01280062A095 /* Brutus the Buckeye.jpg */,
+				B61E137B198A29BD00D5251D /* Load Semester Button.png */,
+				B61E1379198A29A900D5251D /* Save Semester button.png */,
+				B61E137D198C617900D5251D /* Brutus Mascot.png */,
+				B61E1377198A285000D5251D /* Calculate GPA button.png */,
+				B64783F7197DFCAD0051B8E5 /* Block O.png */,
+				B61E137F198C63EC00D5251D /* grayTopBar.png */,
+				B61E1381198C643600D5251D /* redTopBar.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6518272197C12BB0059E250 /* OSU GPA CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6518278197C12BB0059E250 /* OSU_GPA_CalculatorTests.m */,
+				B6518273197C12BB0059E250 /* Supporting Files */,
+			);
+			path = "OSU GPA CalculatorTests";
+			sourceTree = "<group>";
+		};
+		B6518273197C12BB0059E250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6518274197C12BB0059E250 /* OSU GPA CalculatorTests-Info.plist */,
+				B6518275197C12BB0059E250 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B651824F197C12BB0059E250 /* OSU GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B651827C197C12BB0059E250 /* Build configuration list for PBXNativeTarget "OSU GPA Calculator" */;
+			buildPhases = (
+				B651824C197C12BB0059E250 /* Sources */,
+				B651824D197C12BB0059E250 /* Frameworks */,
+				B651824E197C12BB0059E250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSU GPA Calculator";
+			productName = "OSU GPA Calculator";
+			productReference = B6518250197C12BB0059E250 /* OSU GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B651826A197C12BB0059E250 /* OSU GPA CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B651827F197C12BB0059E250 /* Build configuration list for PBXNativeTarget "OSU GPA CalculatorTests" */;
+			buildPhases = (
+				B6518267197C12BB0059E250 /* Sources */,
+				B6518268197C12BB0059E250 /* Frameworks */,
+				B6518269197C12BB0059E250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6518271197C12BB0059E250 /* PBXTargetDependency */,
+			);
+			name = "OSU GPA CalculatorTests";
+			productName = "OSU GPA CalculatorTests";
+			productReference = B651826B197C12BB0059E250 /* OSU GPA CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6518248197C12BB0059E250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BNR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Finnbar Productions";
+				TargetAttributes = {
+					B651824F197C12BB0059E250 = {
+						DevelopmentTeam = 94PB9T3HUX;
+					};
+					B651826A197C12BB0059E250 = {
+						TestTargetID = B651824F197C12BB0059E250;
+					};
+				};
+			};
+			buildConfigurationList = B651824B197C12BB0059E250 /* Build configuration list for PBXProject "OSU GPA Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6518247197C12BB0059E250;
+			productRefGroup = B6518251197C12BB0059E250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B651824F197C12BB0059E250 /* OSU GPA Calculator */,
+				B651826A197C12BB0059E250 /* OSU GPA CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B651824E197C12BB0059E250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64783F8197DFCAD0051B8E5 /* Block O.png in Resources */,
+				B6EA6BFB1997C11D00B4FA01 /* GoBucksRedGray.png in Resources */,
+				B6518286197C12D30059E250 /* BNRViewController.xib in Resources */,
+				B68129381997C98400E0DBE1 /* GoBucksLines.png in Resources */,
+				B61E137E198C617900D5251D /* Brutus Mascot.png in Resources */,
+				B68C278419993EB800876E74 /* GoBucks.png in Resources */,
+				B61E1382198C643600D5251D /* redTopBar.png in Resources */,
+				B61E137A198A29A900D5251D /* Save Semester button.png in Resources */,
+				B61E1378198A285000D5251D /* Calculate GPA button.png in Resources */,
+				B6F76DF41996F6B300373AAF /* SettingsPageViewController.xib in Resources */,
+				B69BF29A198A01280062A095 /* Brutus the Buckeye.jpg in Resources */,
+				B61E1380198C63EC00D5251D /* grayTopBar.png in Resources */,
+				B68129361997C47B00E0DBE1 /* Gray20.png in Resources */,
+				B61E137C198A29BD00D5251D /* Load Semester Button.png in Resources */,
+				B651825E197C12BB0059E250 /* InfoPlist.strings in Resources */,
+				B68C27861999414E00876E74 /* GoBucks1.png in Resources */,
+				B6518266197C12BB0059E250 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6518269197C12BB0059E250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6518277197C12BB0059E250 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B651824C197C12BB0059E250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F76DF31996F6B300373AAF /* SettingsPageViewController.m in Sources */,
+				B6518260197C12BB0059E250 /* main.m in Sources */,
+				B6518264197C12BB0059E250 /* BNRAppDelegate.m in Sources */,
+				B6518285197C12D30059E250 /* BNRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6518267197C12BB0059E250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6518279197C12BB0059E250 /* OSU_GPA_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6518271197C12BB0059E250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B651824F197C12BB0059E250 /* OSU GPA Calculator */;
+			targetProxy = B6518270197C12BB0059E250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B651825C197C12BB0059E250 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B651825D197C12BB0059E250 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6518275197C12BB0059E250 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6518276197C12BB0059E250 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64137B219996452000646E5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Finn Fuller (94PB9T3HUX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Finn Fuller (94PB9T3HUX)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		B64137B319996452000646E5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSU GPA Calculator/OSU GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "OSU GPA Calculator/OSU GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		B64137B419996452000646E5 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSU GPA Calculator.app/OSU GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSU GPA Calculator/OSU GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "OSU GPA CalculatorTests/OSU GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
+		B651827A197C12BB0059E250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Finn Fuller (94PB9T3HUX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Finn Fuller (94PB9T3HUX)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B651827B197C12BB0059E250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Finn Fuller (94PB9T3HUX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Finn Fuller (94PB9T3HUX)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B651827D197C12BB0059E250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSU GPA Calculator/OSU GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "OSU GPA Calculator/OSU GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B651827E197C12BB0059E250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSU GPA Calculator/OSU GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "OSU GPA Calculator/OSU GPA Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6518280197C12BB0059E250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSU GPA Calculator.app/OSU GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSU GPA Calculator/OSU GPA Calculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSU GPA CalculatorTests/OSU GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B6518281197C12BB0059E250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSU GPA Calculator.app/OSU GPA Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSU GPA Calculator/OSU GPA Calculator-Prefix.pch";
+				INFOPLIST_FILE = "OSU GPA CalculatorTests/OSU GPA CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B651824B197C12BB0059E250 /* Build configuration list for PBXProject "OSU GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B651827A197C12BB0059E250 /* Debug */,
+				B651827B197C12BB0059E250 /* Release */,
+				B64137B219996452000646E5 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B651827C197C12BB0059E250 /* Build configuration list for PBXNativeTarget "OSU GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B651827D197C12BB0059E250 /* Debug */,
+				B651827E197C12BB0059E250 /* Release */,
+				B64137B319996452000646E5 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B651827F197C12BB0059E250 /* Build configuration list for PBXNativeTarget "OSU GPA CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6518280197C12BB0059E250 /* Debug */,
+				B6518281197C12BB0059E250 /* Release */,
+				B64137B419996452000646E5 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6518248197C12BB0059E250 /* Project object */;
+}
